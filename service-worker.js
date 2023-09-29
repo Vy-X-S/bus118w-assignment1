@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Vy-X-S/bus118w-assignment1/precache-manifest.e876fc86957d6ad20abdef27d19afd63.js"
+  "https://Vy-X-S.github.io/bus118w-assignment1 /precache-manifest.a714279082f50e867da540b3495ea5e6.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Vy-X-S/bus118w-assignment1/index.html", {
+workbox.routing.registerNavigationRoute("https://Vy-X-S.github.io/bus118w-assignment1 /index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
